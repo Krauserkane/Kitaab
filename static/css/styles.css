@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.sidenav{
+    height: 100%; 
+    position: fixed;
+    width: 20%;
+    background-color:#001a33;
+}
+.userimg{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 5rem;
+   
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    padding: 1rem;cursor: pointer;
+}
+.fields{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.fields:hover{
+   color: #4f83b3;
+   background-color: black;
+   cursor: pointer;
+}
+i{
+    margin-right: 0.8rem;
+}
+.logout{
+    position: relative;
+    top: 250px;
+}
+.subjects{
+    margin-left: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    
+}
+.box{
+    height: 20rem;
+    width: 25rem;
+    border: 1px solid black;
+    margin: 2rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.subject_image{
+    height: 200px;
+    width: 200px;
+    /* margin-left: 6.8rem; */
+    padding: 1rem;
+}
+.dbimage{
+    height: 150px;
+    width: 150px;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.box:hover{
+    transform: scale(1.08);
+    color: #4f83b3;
+}
+
+::selection {
+    color: rgb(228, 85, 60);
+    background: #4f83b3;
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.sidenav{
+    height: 100%; 
+    position: fixed;
+    width: 20%;
+    background-color:#001a33;
+}
+.userimg{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 5rem;
+   
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    padding: 1rem;cursor: pointer;
+}
+.fields{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.fields:hover{
+   color: #4f83b3;
+   background-color: black;
+   cursor: pointer;
+}
+i{
+    margin-right: 0.8rem;
+}
+.logout{
+    position: relative;
+    top: 250px;
+}
+
+.content{
+    margin-left: 22rem;
+    
+}
+.silverline{
+    padding-top: 4rem;
+    border-bottom: 1px solid silver;
+    color: silver;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    margin-bottom: 3rem;
+}
+.content-box{
+    height: 250px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-left: 2rem;
+}
+.mininav{
+    margin-left: 0.8rem;
+    display: inline-block;
+    padding: 0.5rem;
+}
+.star{
+    position: relative;
+    left: 10rem;
+}
+.star:hover{
+    color: tomato;
+   
+}
+.added{
+    color: tomato;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
